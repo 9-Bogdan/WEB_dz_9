@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dz-9"
+version = "0.1.0"
+description = ""
+authors = ["9-Bogdan <127949078+9-Bogdan@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dz_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lxml = "^4.9.3"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+sqlalchemy = "^2.0.20"
+scrapy = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
